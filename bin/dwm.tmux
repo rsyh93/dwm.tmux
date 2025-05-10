@@ -80,7 +80,7 @@ decmfact() {
 
 window() {
   window=$1
-  tmux selectw -t $window
+  tmux selectw -t $window || tmux new-window -t $window
 }
 
 if [ $# -lt 1 ]; then
