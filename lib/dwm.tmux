@@ -32,8 +32,8 @@ bind -n M-w newpanecurdir
 bind -n M-c killpane
 bind -n M-j nextpane
 bind -n M-k prevpane
-bind -n M-< rotateccw
-bind -n M-> rotatecw
+bind -n M-K rotateccw
+bind -n M-J rotatecw
 bind -n M-Enter zoom
 bind -n M-t layouttile
 bind -n M-Space float

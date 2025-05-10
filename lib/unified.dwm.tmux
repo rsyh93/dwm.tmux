@@ -24,8 +24,8 @@ bind -n C-w kill-pane;
 bind -n M-C kill-pane;
 bind -n M-j select-pane -t :.+;
 bind -n M-k select-pane -t :.-;
-bind -n M-< rotate-window -U -t 0;
-bind -n M-> rotate-window -D -t 0;
+bind -n M-J rotate-window -D\; select-pane -t 0;
+bind -n M-K rotate-window -U\; select-pane -t 0;
 bind -n M-t select-layout main-vertical;
 bind -n M-M resize-pane -Z;
 #bind -n M-Space float
