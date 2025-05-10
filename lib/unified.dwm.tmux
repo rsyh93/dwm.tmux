@@ -1,6 +1,9 @@
 # dwm bindings from https://github.com/godwinduan/dwm.tmux (which is a fork)
 # For use with TTY terminals (will try to mimic dwm bindings exactly)
 
+# Start windows at 1
+set -g base-index 1
+
 set-hook -g pane-exited 'select-layout main-vertical;' #resize-pane -t :.0 -x 50%
 
 # New pane, home directory
